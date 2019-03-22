@@ -11,9 +11,21 @@ import java.util.Scanner;
  *
  * @author alumno
  */
-public class EjercicioD {
+public class EjercicioD { 
     
-    Scanner leer = new Scanner(System.in);
+    
+    public static void leerCasosPrueba(){
+        Scanner leer = new Scanner(System.in);
+        String caso = leer.nextLine();
+        int numEquipos, numCasosPrueba;
+        
+        String aux[] = caso.split(" ");
+        
+        numEquipos = Integer.parseInt(aux[1]);
+        numCasosPrueba = Integer.parseInt(aux[0]);
+        
+        System.out.println(numCasosPrueba+" "+numEquipos);
+    }
     
     
     
