@@ -25,6 +25,7 @@ public class EjercicioD {
         String guardar="";
         int numEquipos, numCasosPrueba;
         
+        
         String aux[] = caso.split(" ");
         
         numEquipos = Integer.parseInt(aux[1]);
